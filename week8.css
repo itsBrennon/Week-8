@@ -1,0 +1,73 @@
+
+
+html {
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  background: linear-gradient(180deg, #be84f5, #ba7ac7,  #a789a7);
+  }/*Layout of the page*/
+
+.Menu {
+  padding: 5px;
+  border-style: solid;
+  border-width: 3px;
+  margin: 20px;
+  background-color: #f0ede9c0;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 5px;
+  width: 150px;
+  text-align: justify;
+  float: center;
+}/*Menu for Index contains pages such as Youtube, Twitter, & Home*/
+
+ul, li {
+  box-sizing:border-box;
+  margin: 15px;
+  background-color: #f0ede9c0;
+  width: 350px;
+  padding:20px;
+  border-radius:20px;
+}/* Controls all list with ul, li Used to Control All social list*/
+
+form {
+  box-sizing:border-box;
+  margin: 15px;
+  background-color: #f0ede9c0;
+  width: 350px;
+  padding:20px;
+  border-radius:20px;
+  float: right; 
+  }/* Form turned into a box with brighter colors choose which streaming platform*/
+
+
+#p1 {
+  text-align: center;
+}/*assigned paragraph to p1 so we can center*/
+
+  
+  h1, h2 {
+    text-align: center;
+    border:#000000;
+    margin: 4rem auto 1rem auto;
+  }/*both header 1 and 2 not 3 because we dont want to change its position */
+  
+  img {
+float: inline-end;
+  }/*All images are inline-end*/
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}/*border for our table which is my Gaming Setup*/
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;    
+  }/*border for the th, td in the table*/
+
+tr:hover {
+  background-color: azure;
+}/*hover over table so you can see what is highlighted*/
+
+/*Header 3 wasnt adjusted because postioning was good HTML already changed the font anyways*/
